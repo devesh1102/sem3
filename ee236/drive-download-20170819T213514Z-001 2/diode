@@ -1,0 +1,75 @@
+*Blue LED SPICE Model Data
+.model BLUE D (IS = 2.659E-20 N = 2.63815 RS = 8.14349)
+
+*Developed by Wadhwani Electronics Lab
+*Dept. of Electrical Engg.
+*IIT Bombay
+*January 09, 2015.
+
+
+*Green LED SPICE Model Data
+.model GREEN D (IS = 9.847E-17 N = 2.396 RS = 12.9816)
+
+*Developed by Wadhwani Electronics Lab
+*Dept. of Electrical Engg.
+*IIT Bombay
+*January 09, 2015.
+
+
+*Red LED SPICE Model Data
+.model RED D (IS = 4.366E-25 N = 1.38167 RS = 3.00014)
+
+*Developed by Wadhwani Electronics Lab
+*Dept. of Electrical Engg.
+*IIT Bombay
+*January 09, 2015.
+
+
+*White LED SPICE Model Data
+.model WHITE D (IS = 1.2853E-15 N = 3.99 RS = 8.12296)
+
+*Developed by Wadhwani Electronics Lab
+*Dept. of Electrical Engg.
+*IIT Bombay
+*January 09, 2015.
+
+
+*Yellow LED SPICE Model Data
+.model YELLOW D (IS = 6.77E-22 N = 1.62 RS = 4.6779)
+
+*Developed by Wadhwani Electronics Lab
+*Dept. of Electrical Engg.
+*IIT Bombay
+*January 09, 2015.
+
+
+vblue 3 0 dc 0
+dblue 4 3 BLUE
+rblue 4 1 0.001k
+
+vGreen 5 0 dc 0
+dGreen 6 5 GREEN
+rGreen 6 1 0.001k
+
+vRED 7 0 dc 0
+dRED 8 7 RED
+rRED 8 1 0.001k
+
+vWHITE 9 0 dc 0
+dWHITE 10 9 WHITE
+rWHITE 10 1 0.001k
+
+vYellow 11 0 dc 0
+dYellow 12 11 Yellow
+rYellow 12 1 0.001k
+
+vin 1 0 dc 0
+*DC Analysis on source vin, to vary from -5 to +5V
+.dc vin -5 5 0.01
+.control
+run
+plot i(vYellow) i(vWHITE) i(vRED) i(vblue) i(vGreen) vs v(1)
+plot log(6.77E-22+i(vYellow)) log(6.77E-22+i(vWHITE)) i(vRED) i(vblue) i(vGreen) vs v(1)
+.endc
+.end
+

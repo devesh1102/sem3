@@ -1,0 +1,30 @@
+EE207:
+Solid State Electronic Devices - Streetman & Bannerjee
+Physics of Semiconductor Devices - Simon Sze
+Physics of Semiconductor Devices - Neaman
+Introduction to Solid State Physics - Charles Kittel
+Modern Semiconductor Devices for Integrated Circuits - Chenming Hu (UC Berkeley)
+Purdue Modular Series
+
+EE223:
+Introduction to Probability and Statistics for Engineers and Scientists - Sheldon M. Ross
+Introduction to Probability Models - Sheldon M. Ross
+First Course in Probability - Sheldon M. Ross
+Fundamentals of Probability and Statistics for Engineers - TT Soong
+
+EE225:
+Introduction to Graph Theory - Chartrand & Zhang
+Linear Network Theory - Balabanian & Bickart
+Linear and Non-linear Circuits - Chua, Desoer & Kuh
+Network Analysis - Valkenburg
+
+CS224:
+Computer Networks - Tanenbaum
+
+MA205:
+Advanced Engineering Mathematics - Kreszig
+Complex Variables and Applications - Churchill
+
+MA207:
+Advanced Engineering Mathematics - Kreszig
+Fourier Series and BVPs - Churchill

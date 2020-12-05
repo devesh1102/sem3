@@ -1,0 +1,1 @@
+# A single quantum well.  Quantized states are found automatically.surface	schottky=.6	v1GaAs	t=1000	InGaAs_GaAs	t=150 x=0.1GaAs	t=1000	substratefullyionized#v1 0.0 -1.0 -0.5v1 0.0schrodingerstart=20schrodingerstop=2000find quantized statestemp=300Kdy=10
